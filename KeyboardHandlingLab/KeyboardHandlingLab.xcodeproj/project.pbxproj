@@ -13,6 +13,7 @@
 		C12E09C923EA721D008E09A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C12E09C723EA721D008E09A1 /* Main.storyboard */; };
 		C12E09CB23EA7220008E09A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C12E09CA23EA7220008E09A1 /* Assets.xcassets */; };
 		C12E09CE23EA7220008E09A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C12E09CC23EA7220008E09A1 /* LaunchScreen.storyboard */; };
+		C1CF85B223EBC1AB00E1520C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CF85B123EBC1AB00E1520C /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		C12E09CA23EA7220008E09A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C12E09CD23EA7220008E09A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C12E09CF23EA7220008E09A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1CF85B123EBC1AB00E1520C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				C12E09C123EA721D008E09A1 /* AppDelegate.swift */,
+				C1CF85B123EBC1AB00E1520C /* LoginViewController.swift */,
 				C12E09C323EA721D008E09A1 /* SceneDelegate.swift */,
 				C12E09C523EA721D008E09A1 /* ViewController.swift */,
 				C12E09C723EA721D008E09A1 /* Main.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1CF85B223EBC1AB00E1520C /* LoginViewController.swift in Sources */,
 				C12E09C623EA721D008E09A1 /* ViewController.swift in Sources */,
 				C12E09C223EA721D008E09A1 /* AppDelegate.swift in Sources */,
 				C12E09C423EA721D008E09A1 /* SceneDelegate.swift in Sources */,
