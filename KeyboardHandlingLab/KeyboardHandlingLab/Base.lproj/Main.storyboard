@@ -16,7 +16,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r7M-PC-nut">
-                                <rect key="frame" x="108" y="663" width="198" height="61"/>
+                                <rect key="frame" x="108" y="674" width="198" height="61"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Login HR">
@@ -29,7 +29,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rb4-3P-gzr">
-                                <rect key="frame" x="66" y="732" width="282" height="21"/>
+                                <rect key="frame" x="66" y="743" width="282" height="21"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="282" id="Lgw-Sl-SQr"/>
@@ -73,7 +73,7 @@
                         <color key="backgroundColor" red="0.79805844960000005" green="0.22412053260000001" blue="0.13416134199999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="Ruz-bJ-Yz9" firstAttribute="width" secondItem="Ruz-bJ-Yz9" secondAttribute="height" multiplier="1:1" id="1qm-ng-7Jr"/>
-                            <constraint firstItem="r7M-PC-nut" firstAttribute="top" secondItem="v1g-Np-HVa" secondAttribute="bottom" constant="70" id="B5l-8y-kGE"/>
+                            <constraint firstItem="r7M-PC-nut" firstAttribute="top" secondItem="v1g-Np-HVa" secondAttribute="bottom" constant="81" id="B5l-8y-kGE"/>
                             <constraint firstItem="Rb4-3P-gzr" firstAttribute="top" secondItem="r7M-PC-nut" secondAttribute="bottom" constant="8" id="C21-TG-QZs"/>
                             <constraint firstItem="Ruz-bJ-Yz9" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="GpA-jw-w8T"/>
                             <constraint firstItem="Rb4-3P-gzr" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HrZ-uG-rBr"/>
@@ -206,9 +206,16 @@
                             <constraint firstItem="SiH-aZ-EVu" firstAttribute="centerX" secondItem="kvC-Qk-YxV" secondAttribute="centerX" id="s5O-3i-2Q6"/>
                             <constraint firstItem="1a2-Q9-gjU" firstAttribute="leading" secondItem="2OQ-IL-YVM" secondAttribute="leading" constant="20" id="uUM-8r-XVq"/>
                             <constraint firstItem="aJN-M4-Q1i" firstAttribute="top" secondItem="ibr-2B-h8v" secondAttribute="bottom" constant="51" id="xeE-kh-oYN"/>
+                            <constraint firstItem="ibr-2B-h8v" firstAttribute="centerX" secondItem="kvC-Qk-YxV" secondAttribute="centerX" id="yXM-Ut-cqY"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="2OQ-IL-YVM"/>
                     </view>
+                    <connections>
+                        <outlet property="forgotPasswordButton" destination="SiH-aZ-EVu" id="fDL-wp-IzJ"/>
+                        <outlet property="passwordCenterYConstraint" destination="yXM-Ut-cqY" id="Mvk-nm-3Pa"/>
+                        <outlet property="userNameTextField" destination="E0W-5h-oHb" id="fYh-mo-J0c"/>
+                        <outlet property="userPasswordField" destination="ibr-2B-h8v" id="KEN-7w-1Qx"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ogt-VV-z8e" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
